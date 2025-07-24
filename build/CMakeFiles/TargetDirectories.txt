@@ -1,0 +1,5 @@
+/home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible.dir
+/home/cyruskorir/CProjects/Bible/build/CMakeFiles/edit_cache.dir
+/home/cyruskorir/CProjects/Bible/build/CMakeFiles/rebuild_cache.dir
+/home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible_autogen_timestamp_deps.dir
+/home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible_autogen.dir

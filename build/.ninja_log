@@ -1,0 +1,15 @@
+# ninja log v6
+436	1553	1753339622031085923	CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o	1f2d2976f945451e
+13	16	1753339615087300238	clean	eee472499eb9f57e
+2204	2546	1753339623798284973	Bible	b90c10455aee133c
+3	398	1753339621982288156	Bible_autogen/timestamp	bc91703a2b610230
+3	398	1753339621982288156	Bible_autogen/mocs_compilation.cpp	bc91703a2b610230
+3	398	1753339621982288156	/home/cyruskorir/CProjects/Bible/build/Bible_autogen/timestamp	bc91703a2b610230
+3	398	1753339621982288156	/home/cyruskorir/CProjects/Bible/build/Bible_autogen/mocs_compilation.cpp	bc91703a2b610230
+401	434	1753339622027288077	qrc_bible.cpp	a31d5f05bf206a5b
+435	1922	1753339622030168148	CMakeFiles/Bible.dir/src/main.cpp.o	3056ce1713ec259f
+434	1916	1753339622029288073	CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o	edae05d7278b748e
+435	2204	1753339622030288072	CMakeFiles/Bible.dir/src/BibleWindow.cpp.o	cc8a9675f5bc87db
+2	13	1753339615076300257	CMakeFiles/clean.additional	ef993b15a92b8f11
+401	434	1753339622027288077	/home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp	a31d5f05bf206a5b
+436	479	1753339622031534096	CMakeFiles/Bible.dir/qrc_bible.cpp.o	66660dca7c3338ad

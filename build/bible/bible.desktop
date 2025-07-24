@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Bible
+Comment=Holy Book
+GenericName=Bible
+Exec=/usr/bin/bible
+Icon=bible.png
+Type=Application
+StartupNotify=false
+StartupWMClass=Code
+Actions=new-empty-window;
+Keywords=bible;

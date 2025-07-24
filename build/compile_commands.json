@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/cyruskorir/CProjects/Bible/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/cyruskorir/CProjects/Bible/build/Bible_autogen/include -I/home/cyruskorir/CProjects/Bible/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o -c /home/cyruskorir/CProjects/Bible/build/Bible_autogen/mocs_compilation.cpp",
+  "file": "/home/cyruskorir/CProjects/Bible/build/Bible_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/cyruskorir/CProjects/Bible/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/cyruskorir/CProjects/Bible/build/Bible_autogen/include -I/home/cyruskorir/CProjects/Bible/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/Bible.dir/src/main.cpp.o -c /home/cyruskorir/CProjects/Bible/src/main.cpp",
+  "file": "/home/cyruskorir/CProjects/Bible/src/main.cpp",
+  "output": "CMakeFiles/Bible.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/cyruskorir/CProjects/Bible/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/cyruskorir/CProjects/Bible/build/Bible_autogen/include -I/home/cyruskorir/CProjects/Bible/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/Bible.dir/src/BibleWindow.cpp.o -c /home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp",
+  "file": "/home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp",
+  "output": "CMakeFiles/Bible.dir/src/BibleWindow.cpp.o"
+},
+{
+  "directory": "/home/cyruskorir/CProjects/Bible/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/cyruskorir/CProjects/Bible/build/Bible_autogen/include -I/home/cyruskorir/CProjects/Bible/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o -c /home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp",
+  "file": "/home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp",
+  "output": "CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o"
+},
+{
+  "directory": "/home/cyruskorir/CProjects/Bible/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/cyruskorir/CProjects/Bible/build/Bible_autogen/include -I/home/cyruskorir/CProjects/Bible/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/Bible.dir/qrc_bible.cpp.o -c /home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp",
+  "file": "/home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp",
+  "output": "CMakeFiles/Bible.dir/qrc_bible.cpp.o"
+}
+]
