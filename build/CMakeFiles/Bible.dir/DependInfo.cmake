@@ -9,11 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "Bible_autogen/timestamp" "custom" "Bible_autogen/deps"
-  "/home/cyruskorir/CProjects/Bible/build/Bible_autogen/mocs_compilation.cpp" "CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o.d"
-  "/home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp" "CMakeFiles/Bible.dir/qrc_bible.cpp.o" "gcc" "CMakeFiles/Bible.dir/qrc_bible.cpp.o.d"
-  "/home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp" "CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o" "gcc" "CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o.d"
-  "/home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp" "CMakeFiles/Bible.dir/src/BibleWindow.cpp.o" "gcc" "CMakeFiles/Bible.dir/src/BibleWindow.cpp.o.d"
-  "/home/cyruskorir/CProjects/Bible/src/main.cpp" "CMakeFiles/Bible.dir/src/main.cpp.o" "gcc" "CMakeFiles/Bible.dir/src/main.cpp.o.d"
+  "/home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/mocs_compilation.cpp" "CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o.d"
+  "/home/cyruskorir/CodeProjects/bible-desktop-qt/build/qrc_bible.cpp" "CMakeFiles/Bible.dir/qrc_bible.cpp.o" "gcc" "CMakeFiles/Bible.dir/qrc_bible.cpp.o.d"
+  "/home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.cpp" "CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o" "gcc" "CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o.d"
+  "/home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.cpp" "CMakeFiles/Bible.dir/src/BibleWindow.cpp.o" "gcc" "CMakeFiles/Bible.dir/src/BibleWindow.cpp.o.d"
+  "/home/cyruskorir/CodeProjects/bible-desktop-qt/src/main.cpp" "CMakeFiles/Bible.dir/src/main.cpp.o" "gcc" "CMakeFiles/Bible.dir/src/main.cpp.o.d"
   "" "Bible" "gcc" "CMakeFiles/Bible.dir/link.d"
   )
 

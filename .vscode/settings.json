@@ -2,5 +2,6 @@
     "files.associations": {
         "qapplication": "cpp"
     },
-    "cmake.sourceDirectory": "/home/cyruskorir/CProjects/Bible",
+    "cmake.sourceDirectory": "/home/cyruskorir/CodeProjects/bible-desktop-qt",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
 }

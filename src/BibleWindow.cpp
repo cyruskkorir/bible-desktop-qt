@@ -53,7 +53,7 @@ BibleWindow::BibleWindow(QWidget* parent)
     searchLayout->addWidget(searchButton);
     searchLayout->setSpacing(8);
     searchLayout->setContentsMargins(0, 0, 0, 0);
-    themeToggleButton = new QPushButton("🌙 Dark Mode", this);
+    themeToggleButton = new QPushButton("☀️ Light Mode", this);
     layout->addWidget(themeToggleButton);
 
     connect(themeToggleButton, &QPushButton::clicked, this, &BibleWindow::toggleTheme);

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyruskorir/CProjects/Bible
+CMAKE_SOURCE_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyruskorir/CProjects/Bible/build
+CMAKE_BINARY_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyruskorir/CProjects/Bible/build/CMakeFiles /home/cyruskorir/CProjects/Bible/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles /home/cyruskorir/CodeProjects/bible-desktop-qt/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyruskorir/CProjects/Bible/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

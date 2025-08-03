@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyruskorir/CProjects/Bible
+CMAKE_SOURCE_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyruskorir/CProjects/Bible/build
+CMAKE_BINARY_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Bible.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/Bible.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Bible.dir/flags.make
 
-qrc_bible.cpp: /home/cyruskorir/CProjects/Bible/resources/bible.qrc
-qrc_bible.cpp: /home/cyruskorir/CProjects/Bible/resources/bible.png
+qrc_bible.cpp: /home/cyruskorir/CodeProjects/bible-desktop-qt/resources/bible.qrc
+qrc_bible.cpp: /home/cyruskorir/CodeProjects/bible-desktop-qt/resources/bible.png
 qrc_bible.cpp: resources/bible.qrc.depends
 qrc_bible.cpp: /usr/lib64/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_bible.cpp"
-	/usr/lib64/qt6/libexec/rcc --name bible --output /home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp /home/cyruskorir/CProjects/Bible/resources/bible.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_bible.cpp"
+	/usr/lib64/qt6/libexec/rcc --name bible --output /home/cyruskorir/CodeProjects/bible-desktop-qt/build/qrc_bible.cpp /home/cyruskorir/CodeProjects/bible-desktop-qt/resources/bible.qrc
 
 Bible_autogen/timestamp: /usr/lib64/qt6/libexec/moc
 Bible_autogen/timestamp: CMakeFiles/Bible.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC for target Bible"
-	/usr/bin/cmake -E cmake_autogen /home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /home/cyruskorir/CProjects/Bible/build/Bible_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC for target Bible"
+	/usr/bin/cmake -E cmake_autogen /home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/Bible_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/timestamp
 
 CMakeFiles/Bible.dir/codegen:
 .PHONY : CMakeFiles/Bible.dir/codegen
@@ -88,72 +88,72 @@ CMakeFiles/Bible.dir/codegen:
 CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o: CMakeFiles/Bible.dir/flags.make
 CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o: Bible_autogen/mocs_compilation.cpp
 CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o: CMakeFiles/Bible.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o -c /home/cyruskorir/CProjects/Bible/build/Bible_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.o -c /home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/mocs_compilation.cpp
 
 CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CProjects/Bible/build/Bible_autogen/mocs_compilation.cpp > CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/mocs_compilation.cpp > CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CProjects/Bible/build/Bible_autogen/mocs_compilation.cpp -o CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/mocs_compilation.cpp -o CMakeFiles/Bible.dir/Bible_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Bible.dir/src/main.cpp.o: CMakeFiles/Bible.dir/flags.make
-CMakeFiles/Bible.dir/src/main.cpp.o: /home/cyruskorir/CProjects/Bible/src/main.cpp
+CMakeFiles/Bible.dir/src/main.cpp.o: /home/cyruskorir/CodeProjects/bible-desktop-qt/src/main.cpp
 CMakeFiles/Bible.dir/src/main.cpp.o: CMakeFiles/Bible.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Bible.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/src/main.cpp.o -MF CMakeFiles/Bible.dir/src/main.cpp.o.d -o CMakeFiles/Bible.dir/src/main.cpp.o -c /home/cyruskorir/CProjects/Bible/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Bible.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/src/main.cpp.o -MF CMakeFiles/Bible.dir/src/main.cpp.o.d -o CMakeFiles/Bible.dir/src/main.cpp.o -c /home/cyruskorir/CodeProjects/bible-desktop-qt/src/main.cpp
 
 CMakeFiles/Bible.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bible.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CProjects/Bible/src/main.cpp > CMakeFiles/Bible.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CodeProjects/bible-desktop-qt/src/main.cpp > CMakeFiles/Bible.dir/src/main.cpp.i
 
 CMakeFiles/Bible.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bible.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CProjects/Bible/src/main.cpp -o CMakeFiles/Bible.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CodeProjects/bible-desktop-qt/src/main.cpp -o CMakeFiles/Bible.dir/src/main.cpp.s
 
 CMakeFiles/Bible.dir/src/BibleWindow.cpp.o: CMakeFiles/Bible.dir/flags.make
-CMakeFiles/Bible.dir/src/BibleWindow.cpp.o: /home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp
+CMakeFiles/Bible.dir/src/BibleWindow.cpp.o: /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.cpp
 CMakeFiles/Bible.dir/src/BibleWindow.cpp.o: CMakeFiles/Bible.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bible.dir/src/BibleWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/src/BibleWindow.cpp.o -MF CMakeFiles/Bible.dir/src/BibleWindow.cpp.o.d -o CMakeFiles/Bible.dir/src/BibleWindow.cpp.o -c /home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bible.dir/src/BibleWindow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/src/BibleWindow.cpp.o -MF CMakeFiles/Bible.dir/src/BibleWindow.cpp.o.d -o CMakeFiles/Bible.dir/src/BibleWindow.cpp.o -c /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.cpp
 
 CMakeFiles/Bible.dir/src/BibleWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bible.dir/src/BibleWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp > CMakeFiles/Bible.dir/src/BibleWindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.cpp > CMakeFiles/Bible.dir/src/BibleWindow.cpp.i
 
 CMakeFiles/Bible.dir/src/BibleWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bible.dir/src/BibleWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp -o CMakeFiles/Bible.dir/src/BibleWindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.cpp -o CMakeFiles/Bible.dir/src/BibleWindow.cpp.s
 
 CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o: CMakeFiles/Bible.dir/flags.make
-CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o: /home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp
+CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o: /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.cpp
 CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o: CMakeFiles/Bible.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o -MF CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o.d -o CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o -c /home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o -MF CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o.d -o CMakeFiles/Bible.dir/src/BibleDatabase.cpp.o -c /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.cpp
 
 CMakeFiles/Bible.dir/src/BibleDatabase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bible.dir/src/BibleDatabase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp > CMakeFiles/Bible.dir/src/BibleDatabase.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.cpp > CMakeFiles/Bible.dir/src/BibleDatabase.cpp.i
 
 CMakeFiles/Bible.dir/src/BibleDatabase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bible.dir/src/BibleDatabase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp -o CMakeFiles/Bible.dir/src/BibleDatabase.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.cpp -o CMakeFiles/Bible.dir/src/BibleDatabase.cpp.s
 
 CMakeFiles/Bible.dir/qrc_bible.cpp.o: CMakeFiles/Bible.dir/flags.make
 CMakeFiles/Bible.dir/qrc_bible.cpp.o: qrc_bible.cpp
 CMakeFiles/Bible.dir/qrc_bible.cpp.o: CMakeFiles/Bible.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Bible.dir/qrc_bible.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/qrc_bible.cpp.o -MF CMakeFiles/Bible.dir/qrc_bible.cpp.o.d -o CMakeFiles/Bible.dir/qrc_bible.cpp.o -c /home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Bible.dir/qrc_bible.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bible.dir/qrc_bible.cpp.o -MF CMakeFiles/Bible.dir/qrc_bible.cpp.o.d -o CMakeFiles/Bible.dir/qrc_bible.cpp.o -c /home/cyruskorir/CodeProjects/bible-desktop-qt/build/qrc_bible.cpp
 
 CMakeFiles/Bible.dir/qrc_bible.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bible.dir/qrc_bible.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp > CMakeFiles/Bible.dir/qrc_bible.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyruskorir/CodeProjects/bible-desktop-qt/build/qrc_bible.cpp > CMakeFiles/Bible.dir/qrc_bible.cpp.i
 
 CMakeFiles/Bible.dir/qrc_bible.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bible.dir/qrc_bible.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CProjects/Bible/build/qrc_bible.cpp -o CMakeFiles/Bible.dir/qrc_bible.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyruskorir/CodeProjects/bible-desktop-qt/build/qrc_bible.cpp -o CMakeFiles/Bible.dir/qrc_bible.cpp.s
 
 # Object files for target Bible
 Bible_OBJECTS = \
@@ -180,7 +180,7 @@ Bible: /usr/lib64/libGLX.so
 Bible: /usr/lib64/libOpenGL.so
 Bible: /usr/lib64/libQt6Core.so.6.9.1
 Bible: CMakeFiles/Bible.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Bible"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Bible"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bible.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -193,6 +193,6 @@ CMakeFiles/Bible.dir/clean:
 
 CMakeFiles/Bible.dir/depend: Bible_autogen/timestamp
 CMakeFiles/Bible.dir/depend: qrc_bible.cpp
-	cd /home/cyruskorir/CProjects/Bible/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyruskorir/CProjects/Bible /home/cyruskorir/CProjects/Bible /home/cyruskorir/CProjects/Bible/build /home/cyruskorir/CProjects/Bible/build /home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/cyruskorir/CodeProjects/bible-desktop-qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyruskorir/CodeProjects/bible-desktop-qt /home/cyruskorir/CodeProjects/bible-desktop-qt /home/cyruskorir/CodeProjects/bible-desktop-qt/build /home/cyruskorir/CodeProjects/bible-desktop-qt/build /home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/Bible.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Bible.dir/depend
 

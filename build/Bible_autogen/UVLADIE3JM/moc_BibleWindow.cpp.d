@@ -1,6 +1,6 @@
-/home/cyruskorir/CProjects/Bible/build/Bible_autogen/UVLADIE3JM/moc_BibleWindow.cpp: /home/cyruskorir/CProjects/Bible/src/BibleWindow.h \
-  /home/cyruskorir/CProjects/Bible/build/Bible_autogen/moc_predefs.h \
-  /home/cyruskorir/CProjects/Bible/src/BibleDatabase.h \
+/home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/UVLADIE3JM/moc_BibleWindow.cpp: /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.h \
+  /home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/moc_predefs.h \
+  /home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

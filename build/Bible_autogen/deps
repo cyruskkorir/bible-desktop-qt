@@ -1,15 +1,15 @@
 Bible_autogen/timestamp: \
-	/home/cyruskorir/CProjects/Bible/CMakeLists.txt \
-	/home/cyruskorir/CProjects/Bible/build/Bible_autogen/moc_predefs.h \
-	/home/cyruskorir/CProjects/Bible/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake \
-	/home/cyruskorir/CProjects/Bible/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
-	/home/cyruskorir/CProjects/Bible/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
-	/home/cyruskorir/CProjects/Bible/resources/bible.qrc \
-	/home/cyruskorir/CProjects/Bible/src/BibleDatabase.cpp \
-	/home/cyruskorir/CProjects/Bible/src/BibleDatabase.h \
-	/home/cyruskorir/CProjects/Bible/src/BibleWindow.cpp \
-	/home/cyruskorir/CProjects/Bible/src/BibleWindow.h \
-	/home/cyruskorir/CProjects/Bible/src/main.cpp \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/CMakeLists.txt \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/moc_predefs.h \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/resources/bible.qrc \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.cpp \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleDatabase.h \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.cpp \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/src/BibleWindow.h \
+	/home/cyruskorir/CodeProjects/bible-desktop-qt/src/main.cpp \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -671,6 +671,14 @@ Bible_autogen/timestamp: \
 	/usr/lib64/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
 	/usr/lib64/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
 	/usr/lib64/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+	/usr/lib64/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
 	/usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginAdditionalTargetInfo.cmake \
 	/usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake \
 	/usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake \

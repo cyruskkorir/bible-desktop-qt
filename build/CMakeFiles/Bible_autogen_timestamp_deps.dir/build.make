@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyruskorir/CProjects/Bible
+CMAKE_SOURCE_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyruskorir/CProjects/Bible/build
+CMAKE_BINARY_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt/build
 
 # Utility rule file for Bible_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/Bible_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/Bible_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/Bible_autogen_timestamp_deps.dir/depend:
-	cd /home/cyruskorir/CProjects/Bible/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyruskorir/CProjects/Bible /home/cyruskorir/CProjects/Bible /home/cyruskorir/CProjects/Bible/build /home/cyruskorir/CProjects/Bible/build /home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/cyruskorir/CodeProjects/bible-desktop-qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyruskorir/CodeProjects/bible-desktop-qt /home/cyruskorir/CodeProjects/bible-desktop-qt /home/cyruskorir/CodeProjects/bible-desktop-qt/build /home/cyruskorir/CodeProjects/bible-desktop-qt/build /home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/Bible_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Bible_autogen_timestamp_deps.dir/depend
 

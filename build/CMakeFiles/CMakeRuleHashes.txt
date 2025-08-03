@@ -1,3 +1,4 @@
 # Hashes of file build rules.
-9b03d9a24179b9587fd5f045349ba7df Bible_autogen/timestamp
-60def5d2e8c4335dafcb84a0aca45763 qrc_bible.cpp
+ae9ff439dfdf9351027a208f782a2e4d Bible_autogen/timestamp
+30909aabf28fbca4810b784da2c09556 CMakeFiles/Bible_autogen
+3a6e9458972da74487ecf5a3d1689a64 qrc_bible.cpp

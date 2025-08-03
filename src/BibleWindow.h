@@ -33,7 +33,7 @@ private:
     QLineEdit* searchEdit; // ✅ Required for search functionality
     QPushButton* searchButton; // ✅ Required for search button
     QPushButton* themeToggleButton;
-    bool darkModeEnabled = false;
+    bool darkModeEnabled = true;
 
 
 

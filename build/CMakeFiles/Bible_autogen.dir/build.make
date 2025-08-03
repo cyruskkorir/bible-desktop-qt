@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyruskorir/CProjects/Bible
+CMAKE_SOURCE_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyruskorir/CProjects/Bible/build
+CMAKE_BINARY_DIR = /home/cyruskorir/CodeProjects/bible-desktop-qt/build
 
 # Utility rule file for Bible_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/Bible_autogen: Bible_autogen/timestamp
 
 Bible_autogen/timestamp: /usr/lib64/qt6/libexec/moc
 Bible_autogen/timestamp: CMakeFiles/Bible_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cyruskorir/CProjects/Bible/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Bible"
-	/usr/bin/cmake -E cmake_autogen /home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /home/cyruskorir/CProjects/Bible/build/Bible_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Bible"
+	/usr/bin/cmake -E cmake_autogen /home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/Bible_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /home/cyruskorir/CodeProjects/bible-desktop-qt/build/Bible_autogen/timestamp
 
 CMakeFiles/Bible_autogen.dir/codegen:
 .PHONY : CMakeFiles/Bible_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/Bible_autogen.dir/clean:
 .PHONY : CMakeFiles/Bible_autogen.dir/clean
 
 CMakeFiles/Bible_autogen.dir/depend:
-	cd /home/cyruskorir/CProjects/Bible/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyruskorir/CProjects/Bible /home/cyruskorir/CProjects/Bible /home/cyruskorir/CProjects/Bible/build /home/cyruskorir/CProjects/Bible/build /home/cyruskorir/CProjects/Bible/build/CMakeFiles/Bible_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/cyruskorir/CodeProjects/bible-desktop-qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyruskorir/CodeProjects/bible-desktop-qt /home/cyruskorir/CodeProjects/bible-desktop-qt /home/cyruskorir/CodeProjects/bible-desktop-qt/build /home/cyruskorir/CodeProjects/bible-desktop-qt/build /home/cyruskorir/CodeProjects/bible-desktop-qt/build/CMakeFiles/Bible_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Bible_autogen.dir/depend
 
